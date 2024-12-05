@@ -1,0 +1,115 @@
+body{
+    width: 375px;
+}
+#main-box{
+    width: 325px;
+}
+nav{
+    background-color: white;
+}
+#box1 button img{
+    height: 35px;
+}
+#box1 button{
+    background-color:hsl(240, 75%, 98%);
+    border-color:hsl(240, 75%, 98%);
+}
+#box1 #img1{
+    width: 325px;
+}
+#box1{
+    text-align: center;
+}
+h1,p{
+    text-align: center;
+}
+.input1,.input2{
+    height: 30px;
+    width: 215px;
+    margin: 10px;
+}
+.input1{
+background-color:hsl(240, 75%, 98%);
+}
+.input2{
+background-color: hsl(224, 93%, 58%);
+border-color:hsl(224, 93%, 58%);
+}
+#box2 img{
+    width: 325px;
+}
+#box2 h3{
+    text-align: center;
+}
+#box2 p{
+    text-align: justify;
+}
+#box2 button{
+    background-color:hsl(240, 75%, 98%);
+    border-color:hsl(240, 75%, 98%);
+    color: green;
+    text-decoration: underline;
+}
+#indiv{
+    background-color: rgb(225, 231, 231);
+    text-align: justify;
+    padding: 20px;
+}
+#indiv img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+}
+i{
+    margin-left: 45px;
+    font-style: normal;
+}
+#btn3{
+    margin-left: 85px;
+}
+#box3{
+    text-align: center;
+    background-color: hsl(238, 22%, 44%);
+    padding: 15px;
+}
+#box4{
+    background-color:  hsl(243, 87%, 12%);
+    color: hsl(240, 75%, 98%);
+    padding: 15px;
+}
+address #img1{
+    background-color:hsl(240, 75%, 98%);
+    margin-left: 25px;
+    margin-top: 25px;
+}
+ul{
+    list-style: none;
+}
+
+
+/* Larger screen */
+@media (min-width:1200px) {
+    body{
+        height: 2335px;
+        width: 1440px;
+    }
+    #main-box{
+        width: 1000px;
+        margin-left: 225px;
+    }
+    #div1,#box2,#box3,address{
+        display: flex;
+    }
+    #div1,#box2{
+        flex-direction: row-reverse;
+    }
+    #indiv4{
+        margin-left: 150px;
+    }
+    #indiv,#box2 h3,#box1 h1{
+        text-align: justify;
+    }
+    #list{
+        display: flex;
+    }
+}
